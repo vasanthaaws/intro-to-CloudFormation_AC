@@ -25,6 +25,7 @@ Resources:
             /var/www/html/index.php:
               content: !Sub |
                 <?php print "Hello world Vasantha is doing here!"; ?>
+                <?php print "This is our first webpage!"; ?>
           services: 
             sysvinit:
               httpd:
